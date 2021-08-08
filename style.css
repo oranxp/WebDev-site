@@ -1,0 +1,94 @@
+.content {
+    padding-top: 70px;
+}
+
+#cart {
+    color: #6c757d;
+    padding: 10px;
+}
+#itemCount {
+    text-decoration: none;
+    color: #6c757d;
+}
+#shop-sign {
+    color: #6c757d;
+    font-family: "Gill Sans MT";
+    font-size: 30px;
+    font-size: 3.5vw;
+}
+
+.card-title.item-title {
+    color: #dc3545;
+    border-color: #545b62;
+}
+.card-text.item-price {
+    font-size:18px;
+}
+.card-text.item-desc {
+    text-size-adjust: auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:65.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#about {
+    padding-top: 30px;
+}
+#about-us {
+    text-align: justify;
+}
+
+.img-fluid:hover {
+    transform: scale(1.01);
+}
+
+#branches {
+padding-top:2em;
+}
+
+#copyright {
+    font-family: "Verdana";
+    font-size: 12px;
+    text-align: center;
+}
+#copyright a {
+    color: #ffffff;
+    font-family: "Verdana";
+    text-decoration-line: none;
+}
+
+/* New Css for shoppingCart.html */
+
+#productsSum {
+    #font-family: "Arial";
+    border-collapse: collapse;
+    width:100%;
+    padding-bottom: 30px;
+}
+#productsSum th {
+    padding-top: 1px;
+    padding-bottom:1px;
+    text-align: left;
+    background-color: #6c757d;
+    color: black;
+}
+#customers td, #customers th {
+    border:1px solid black;
+    padding: 5px;
+}
+#productsSum tr:hover {
+    background-color: #494f54;
+    color: white;
+}

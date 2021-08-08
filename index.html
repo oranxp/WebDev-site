@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>My Online Store</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    </head>
+    <body>
+    <!-- Header and nav bar -->
+    <header id="home">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-expand-xs navbar-light bg-light" id="nav">
+            <img src="img/logo.png" class="navbar-brand" height="50" width="50">
+            <a href="index.html" class="navbar-brand">Sports Store</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="itemCount" href="#" data-toggle="modal" data-target="#shopping-cart"><ion-icon id="cart" name="cart-outline"></ion-icon><span id="productCount">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main section - Shop sign and shop items. -->
+    <section>
+      <div class="content">
+            <div class="container">
+              <div class="row">
+                  <div class="col" id="shop-sign">
+                        <p>Products:</p>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-10 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item1.jpg" alt="nike-shoes">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Running Shoes</h5>
+                            <p class="card-text item-price">70$</p>
+                            <p class="card-text item-desc">Nike's latest running shoes, with all the latest technologies.</p>
+                            <a href="#" class="btn btn-primary addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item2.jpg" alt="item2">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Weights</h5>
+                            <p class="card-text item-price">30$</p>
+                            <p class="card-text item-desc">All kinds of weights to pump up your muscles.</p>
+                            <a href="#" class="btn btn-primary addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item3.jpg" alt="item3">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Yoga Mattresses</h5>
+                            <p class="card-text item-price">29$</p>
+                            <p class="card-text item-desc">The best yoga mattresses recommended by yoga instructors.</p>
+                            <a href="#" class="btn btn-primary addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item4.jpg" alt="item4">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Sports Balls</h5>
+                            <p class="card-text item-price">29$</p>
+                            <p class="card-text item-desc">All brands of basketballs, soccer balls, footballs and more!</p>
+                            <a href="#" class="btn btn-primary addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item5.jpg" alt="item5">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Treadmills</h5>
+                            <p class="card-text item-price">459$</p>
+                            <p class="card-text item-desc">Best Treadmills for your exercising at home or office.</p>
+                            <a href="#" class="btn btn-primary my-btn addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/item6.jpg" alt="item1">
+                        <div class="card-body">
+                            <h5 class="card-title item-title">Sports Car</h5>
+                            <p class="card-text item-price">300,000$</p>
+                            <p class="card-text item-desc">Honda's sports car, for those of you who want the car to do the exercising.</p>
+                            <a href="#" class="btn btn-primary my-btn addToCart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="about">
+                <p>
+                <h3>About us:</h3>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="about-txt">
+                <p id="about-us">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet sit amet cursus sit amet dictum. Aliquam purus sit amet luctus venenatis lectus magna fringilla. Et malesuada fames ac turpis. Turpis massa tincidunt dui ut. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. In nibh mauris cursus mattis molestie a iaculis at. Non sodales neque sodales ut. Aliquam id diam maecenas ultricies mi eget. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Venenatis urna cursus eget nunc. Et odio pellentesque diam volutpat commodo sed egestas. Ornare arcu dui vivamus arcu felis bibendum ut. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Semper risus in hendrerit gravida rutrum. Quis enim lobortis scelerisque fermentum dui. Varius sit amet mattis vulputate enim nulla.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <div class="map-responsive">
+                    <iframe width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7ZPmlkqBAhURbEuDw90q-dI&key=AIzaSyDSZG2mzYgHEpe412O0rPYzHrq6TUHyYb4" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Main section - Social media section -->
+    <p></p>
+    <div class="container">
+        <div class="row" id="social-icons">
+            <div class="col-3"></div>
+            <div class="col-2">
+                <a href="http://www.instagram.com">
+                    <img src="img/instagram_logo.jpg" class="img-fluid img-thumbnail" alt="instagram">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="http://www.twitter.com">
+                    <img src="img/twitter_logo.png" class="img-fluid img-thumbnail" alt="twitter">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="http://www.facebook.com">
+                    <img src="img/facebook_logo.png" class="img-fluid img-thumbnail" alt="facebook">
+                </a>
+            </div>
+            <div class="col-3"></div>
+            </div>
+    </div>
+    <!-- Main section - Branches  -->
+    <div class="container" id="branches">
+        <div class="row">
+            <div class="col">
+                <table class="table table-dark">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Street</th>
+                        <th scope="col">Phone</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Tel Aviv</td>
+                        <td>Igal Alon</td>
+                        <td>03-111111</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Beer Sheva</td>
+                        <td>David Hamelech</td>
+                        <td>08-999999</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Rehovot</td>
+                        <td>Hertzl</td>
+                        <td>08-343111</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Contact us section -->
+    <footer>
+        <div class="container" id="contact-us">
+            <h5>Contact us:</h5>
+            <form action="#">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="name">Enter your name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="phone">Enter your phone number:</label>
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone number">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email">Enter your email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <textarea class="form-control" id="subject" name="subject" placeholder="Write something.."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="submit" class="form-control" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Or, you can send us <a href="mailto:oranxp@mail.sapir.ac.il?&subject=A%20question%20about%20an%20item%20&body=Enter your question here.. :)">Mail</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table table-dark">
+                        <thead>
+                        <tr>
+                            <th><p id="copyright">Copyright &copy; <a href="https://github.com/oranxp/Web-development">Oran Ofzer</a> & Tal Alter 2020</p></th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Modal for shopping cart -->
+    <div class="modal" id="shopping-cart">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Shopping Cart</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="products">
+                        <table id="productsSum">
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <input type="submit" id="placeOrder" value="Place Order" disabled=true>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
+</html>
+
