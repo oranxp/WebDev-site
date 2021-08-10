@@ -1,0 +1,7 @@
+Link: https://oranxp.github.io/WebDev-site/
+Sports store:
+* This website was created for a 2nd year Web Development course assignment in Sapir Academic College (Computer Science).
+* Contains only frontend (HTML, Javascript and CSS3 using bootstrap framework).
+* No backend / Placing order provided, simply adding items.
+* Allows to add items to shopping card, dynamically updating the card (click on shopping cart icon to view)
+* Using Localstorage and javascript to keep track of items added to cart.
